@@ -1,28 +1,31 @@
 <template>
-  <a href="https://github.com/samuelhorn/jamdocs" :class="size" title="Git-repository" aria-label="Jamdocs on Github">
+  <a
+    href="https://xajj.netlify.com/"
+    :class="size"
+    title="Git-repository"
+    aria-label="Jamdocs on Github"
+  >
     <github-icon class="icon" />
     {{text}}
   </a>
 </template>
 
 <script>
-import { GithubIcon } from 'vue-feather-icons'
+import { GithubIcon } from "vue-feather-icons";
 
 export default {
-  components: {
-    GithubIcon
-  },
+  components: {},
   props: {
     size: {
       type: String,
-      default: 'small'
+      default: "small"
     },
     text: {
       type: String,
-      default: 'Fork me on Github'
+      default: "Copyright 2019. All rights reserved."
     }
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
@@ -34,7 +37,7 @@ a {
   font-size: 12px;
   line-height: 18px;
   font-weight: 700;
-  transition: color .15s ease-in-out, background .15s ease-in-out;
+  transition: color 0.15s ease-in-out, background 0.15s ease-in-out;
 
   &:focus {
     outline: none;
