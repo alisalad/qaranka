@@ -1,7 +1,7 @@
 <template>
   <Layout :sidebar="false">
     <div class="content">
-      <h1>Simple and Practical Guide to Hajj and Umrah</h1>
+      <h1>Simple & Practical Guide to Hajj & Umrah</h1>
       <nav>
         <article>
           <h2>
