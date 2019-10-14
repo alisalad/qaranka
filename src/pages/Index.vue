@@ -1,7 +1,7 @@
 <template>
   <Layout :sidebar="false">
     <div class="content">
-      <h1>Dastuurka Jamhuuriyadda Federaalka ee Soomaaliya</h1>
+      <h1>Simple and Practical Guide to Hajj and Umrah</h1>
       <nav>
         <article>
           <h2>
