@@ -1,29 +1,26 @@
 <template>
   <Layout :sidebar="false">
     <div class="content">
-      <h1>Jamdocs - the ultimate static generated documentation theme for the JAM-stack</h1>
+      <h1>Dastuurka </br> Jamhuuriyadda Federaalka ee Soomaaliya</h1>
       <nav>
         <article>
           <h2>
             <g-link to="/getting-started">
-              <play-icon />
-              Introduction
+              <play-icon />Dastuurka KMG
             </g-link>
           </h2>
         </article>
         <article>
           <h2>
             <g-link to="/theme-configuration">
-              <sliders-icon />
-              Configuration
+              <sliders-icon />Provisional Constitution
             </g-link>
           </h2>
         </article>
         <article>
           <h2>
             <g-link to="/theme-configuration#changing-colors">
-              <eye-icon />
-              Change colors
+              <eye-icon />Xeer Hoosaadka
             </g-link>
           </h2>
         </article>
@@ -34,8 +31,8 @@
 </template>
 
 <script>
-import GitLink from '~/components/GitLink.vue'
-import { PlayIcon, SlidersIcon, EyeIcon } from 'vue-feather-icons'
+import GitLink from "~/components/GitLink.vue";
+import { PlayIcon, SlidersIcon, EyeIcon } from "vue-feather-icons";
 
 export default {
   // Make icons avaliable
@@ -46,12 +43,18 @@ export default {
     EyeIcon
   },
   metaInfo: {
-    title: 'The ultimate static generated documentation theme for the JAM-stack',
+    title:
+      "The ultimate static generated documentation theme for the JAM-stack",
     meta: [
-      { key: 'description', name: 'description', content: 'A theme for static site documentation based on Gridsome, ready to deploy to Netlify in one click.' }
+      {
+        key: "description",
+        name: "description",
+        content:
+          "A theme for static site documentation based on Gridsome, ready to deploy to Netlify in one click."
+      }
     ]
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
@@ -91,7 +94,7 @@ nav {
     background: $sidebarBright;
     padding: 2rem;
     border-radius: 3px;
-    transition: background .15s ease-in-out, border-color .15s ease-in-out;
+    transition: background 0.15s ease-in-out, border-color 0.15s ease-in-out;
 
     @include respond-above(sm) {
       margin: 0 1em 0;
